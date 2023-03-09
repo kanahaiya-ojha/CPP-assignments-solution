@@ -141,10 +141,12 @@ int main()
             {
                 f1[i].show();
             }
-            if(p1[i].empCode==a)
+            else if(p1[i].empCode==a)
             {
             p1[i].show1();
             }
+            else
+                cout<<"Record not found";
 
 
          }
